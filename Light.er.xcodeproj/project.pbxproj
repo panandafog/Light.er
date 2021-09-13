@@ -1,0 +1,634 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0B26063726EFDD0800F2CE8D /* Light_erApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B26063626EFDD0800F2CE8D /* Light_erApp.swift */; };
+		0B26063926EFDD0800F2CE8D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B26063826EFDD0800F2CE8D /* ContentView.swift */; };
+		0B26063B26EFDD0A00F2CE8D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0B26063A26EFDD0A00F2CE8D /* Assets.xcassets */; };
+		0B26063E26EFDD0A00F2CE8D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0B26063D26EFDD0A00F2CE8D /* Preview Assets.xcassets */; };
+		0B26065126EFDDB100F2CE8D /* Light.er (watchOS) Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 0B26065026EFDDB100F2CE8D /* Light.er (watchOS) Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		0B26065C26EFDDB200F2CE8D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0B26065B26EFDDB200F2CE8D /* Assets.xcassets */; };
+		0B26065F26EFDDB200F2CE8D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0B26065E26EFDDB200F2CE8D /* Preview Assets.xcassets */; };
+		0B26066326EFDDB200F2CE8D /* Light.er (watchOS).app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 0B26064726EFDDAF00F2CE8D /* Light.er (watchOS).app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		0B26066C26EFDEE300F2CE8D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B26063826EFDD0800F2CE8D /* ContentView.swift */; };
+		0B26066D26EFDEE600F2CE8D /* Light_erApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B26063626EFDD0800F2CE8D /* Light_erApp.swift */; };
+		0B26066E26EFDFCC00F2CE8D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0B26064926EFDDB100F2CE8D /* Assets.xcassets */; };
+		0B26067126EFE16D00F2CE8D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0B26067026EFE16D00F2CE8D /* Assets.xcassets */; };
+		0B26067226EFE18A00F2CE8D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0B26067026EFE16D00F2CE8D /* Assets.xcassets */; };
+		0B26067326EFE19600F2CE8D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0B26067026EFE16D00F2CE8D /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0B26065226EFDDB100F2CE8D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0B26062B26EFDD0800F2CE8D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0B26064F26EFDDB100F2CE8D;
+			remoteInfo = "Light.er (watchOS) Extension";
+		};
+		0B26066126EFDDB200F2CE8D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0B26062B26EFDD0800F2CE8D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0B26064626EFDDAF00F2CE8D;
+			remoteInfo = "Light.er (watchOS)";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		0B26066726EFDDB200F2CE8D /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				0B26065126EFDDB100F2CE8D /* Light.er (watchOS) Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0B26066B26EFDDB200F2CE8D /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				0B26066326EFDDB200F2CE8D /* Light.er (watchOS).app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		0B26063326EFDD0800F2CE8D /* Light.er.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Light.er.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0B26063626EFDD0800F2CE8D /* Light_erApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Light_erApp.swift; sourceTree = "<group>"; };
+		0B26063826EFDD0800F2CE8D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		0B26063A26EFDD0A00F2CE8D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0B26063D26EFDD0A00F2CE8D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		0B26063F26EFDD0A00F2CE8D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0B26064726EFDDAF00F2CE8D /* Light.er (watchOS).app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Light.er (watchOS).app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0B26064926EFDDB100F2CE8D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0B26064B26EFDDB100F2CE8D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0B26065026EFDDB100F2CE8D /* Light.er (watchOS) Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Light.er (watchOS) Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0B26065926EFDDB100F2CE8D /* ComplicationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplicationController.swift; sourceTree = "<group>"; };
+		0B26065B26EFDDB200F2CE8D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0B26065E26EFDDB200F2CE8D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		0B26066026EFDDB200F2CE8D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0B26067026EFE16D00F2CE8D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0B26063026EFDD0800F2CE8D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0B26064D26EFDDB100F2CE8D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0B26062A26EFDD0800F2CE8D = {
+			isa = PBXGroup;
+			children = (
+				0B26066F26EFE0D500F2CE8D /* Shared */,
+				0B26063526EFDD0800F2CE8D /* Light.er */,
+				0B26064826EFDDAF00F2CE8D /* Light.er (watchOS) */,
+				0B26065426EFDDB100F2CE8D /* Light.er (watchOS) Extension */,
+				0B26063426EFDD0800F2CE8D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0B26063426EFDD0800F2CE8D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0B26063326EFDD0800F2CE8D /* Light.er.app */,
+				0B26064726EFDDAF00F2CE8D /* Light.er (watchOS).app */,
+				0B26065026EFDDB100F2CE8D /* Light.er (watchOS) Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0B26063526EFDD0800F2CE8D /* Light.er */ = {
+			isa = PBXGroup;
+			children = (
+				0B26063626EFDD0800F2CE8D /* Light_erApp.swift */,
+				0B26063826EFDD0800F2CE8D /* ContentView.swift */,
+				0B26063A26EFDD0A00F2CE8D /* Assets.xcassets */,
+				0B26063F26EFDD0A00F2CE8D /* Info.plist */,
+				0B26063C26EFDD0A00F2CE8D /* Preview Content */,
+			);
+			path = Light.er;
+			sourceTree = "<group>";
+		};
+		0B26063C26EFDD0A00F2CE8D /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				0B26063D26EFDD0A00F2CE8D /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		0B26064826EFDDAF00F2CE8D /* Light.er (watchOS) */ = {
+			isa = PBXGroup;
+			children = (
+				0B26064926EFDDB100F2CE8D /* Assets.xcassets */,
+				0B26064B26EFDDB100F2CE8D /* Info.plist */,
+			);
+			path = "Light.er (watchOS)";
+			sourceTree = "<group>";
+		};
+		0B26065426EFDDB100F2CE8D /* Light.er (watchOS) Extension */ = {
+			isa = PBXGroup;
+			children = (
+				0B26065926EFDDB100F2CE8D /* ComplicationController.swift */,
+				0B26065B26EFDDB200F2CE8D /* Assets.xcassets */,
+				0B26066026EFDDB200F2CE8D /* Info.plist */,
+				0B26065D26EFDDB200F2CE8D /* Preview Content */,
+			);
+			path = "Light.er (watchOS) Extension";
+			sourceTree = "<group>";
+		};
+		0B26065D26EFDDB200F2CE8D /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				0B26065E26EFDDB200F2CE8D /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		0B26066F26EFE0D500F2CE8D /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				0B26067026EFE16D00F2CE8D /* Assets.xcassets */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0B26063226EFDD0800F2CE8D /* Light.er */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0B26064226EFDD0A00F2CE8D /* Build configuration list for PBXNativeTarget "Light.er" */;
+			buildPhases = (
+				0B26062F26EFDD0800F2CE8D /* Sources */,
+				0B26063026EFDD0800F2CE8D /* Frameworks */,
+				0B26063126EFDD0800F2CE8D /* Resources */,
+				0B26066B26EFDDB200F2CE8D /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0B26066226EFDDB200F2CE8D /* PBXTargetDependency */,
+			);
+			name = Light.er;
+			productName = Light.er;
+			productReference = 0B26063326EFDD0800F2CE8D /* Light.er.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0B26064626EFDDAF00F2CE8D /* Light.er (watchOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0B26066826EFDDB200F2CE8D /* Build configuration list for PBXNativeTarget "Light.er (watchOS)" */;
+			buildPhases = (
+				0B26064526EFDDAF00F2CE8D /* Resources */,
+				0B26066726EFDDB200F2CE8D /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0B26065326EFDDB100F2CE8D /* PBXTargetDependency */,
+			);
+			name = "Light.er (watchOS)";
+			productName = "Light.er (watchOS)";
+			productReference = 0B26064726EFDDAF00F2CE8D /* Light.er (watchOS).app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		0B26064F26EFDDB100F2CE8D /* Light.er (watchOS) Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0B26066426EFDDB200F2CE8D /* Build configuration list for PBXNativeTarget "Light.er (watchOS) Extension" */;
+			buildPhases = (
+				0B26064C26EFDDB100F2CE8D /* Sources */,
+				0B26064D26EFDDB100F2CE8D /* Frameworks */,
+				0B26064E26EFDDB100F2CE8D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Light.er (watchOS) Extension";
+			productName = "Light.er (watchOS) Extension";
+			productReference = 0B26065026EFDDB100F2CE8D /* Light.er (watchOS) Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0B26062B26EFDD0800F2CE8D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					0B26063226EFDD0800F2CE8D = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+					0B26064626EFDDAF00F2CE8D = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+					0B26064F26EFDDB100F2CE8D = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+				};
+			};
+			buildConfigurationList = 0B26062E26EFDD0800F2CE8D /* Build configuration list for PBXProject "Light.er" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0B26062A26EFDD0800F2CE8D;
+			productRefGroup = 0B26063426EFDD0800F2CE8D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0B26063226EFDD0800F2CE8D /* Light.er */,
+				0B26064626EFDDAF00F2CE8D /* Light.er (watchOS) */,
+				0B26064F26EFDDB100F2CE8D /* Light.er (watchOS) Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0B26063126EFDD0800F2CE8D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B26063E26EFDD0A00F2CE8D /* Preview Assets.xcassets in Resources */,
+				0B26067126EFE16D00F2CE8D /* Assets.xcassets in Resources */,
+				0B26063B26EFDD0A00F2CE8D /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0B26064526EFDDAF00F2CE8D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B26067326EFE19600F2CE8D /* Assets.xcassets in Resources */,
+				0B26066E26EFDFCC00F2CE8D /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0B26064E26EFDDB100F2CE8D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B26065F26EFDDB200F2CE8D /* Preview Assets.xcassets in Resources */,
+				0B26067226EFE18A00F2CE8D /* Assets.xcassets in Resources */,
+				0B26065C26EFDDB200F2CE8D /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0B26062F26EFDD0800F2CE8D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B26063926EFDD0800F2CE8D /* ContentView.swift in Sources */,
+				0B26063726EFDD0800F2CE8D /* Light_erApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0B26064C26EFDDB100F2CE8D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B26066C26EFDEE300F2CE8D /* ContentView.swift in Sources */,
+				0B26066D26EFDEE600F2CE8D /* Light_erApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0B26065326EFDDB100F2CE8D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0B26064F26EFDDB100F2CE8D /* Light.er (watchOS) Extension */;
+			targetProxy = 0B26065226EFDDB100F2CE8D /* PBXContainerItemProxy */;
+		};
+		0B26066226EFDDB200F2CE8D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0B26064626EFDDAF00F2CE8D /* Light.er (watchOS) */;
+			targetProxy = 0B26066126EFDDB200F2CE8D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0B26064026EFDD0A00F2CE8D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0B26064126EFDD0A00F2CE8D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0B26064326EFDD0A00F2CE8D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Light.er/Preview Content\"";
+				DEVELOPMENT_TEAM = 3HG9ZBM8AV;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Light.er/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "panandafog.Light-er";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0B26064426EFDD0A00F2CE8D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Light.er/Preview Content\"";
+				DEVELOPMENT_TEAM = 3HG9ZBM8AV;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Light.er/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "panandafog.Light-er";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		0B26066526EFDDB200F2CE8D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Light.er (watchOS) Extension/Preview Content\"";
+				DEVELOPMENT_TEAM = 3HG9ZBM8AV;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Light.er (watchOS) Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "panandafog.Light-er.watchkitapp.watchkitextension";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 7.4;
+			};
+			name = Debug;
+		};
+		0B26066626EFDDB200F2CE8D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Light.er (watchOS) Extension/Preview Content\"";
+				DEVELOPMENT_TEAM = 3HG9ZBM8AV;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Light.er (watchOS) Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "panandafog.Light-er.watchkitapp.watchkitextension";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 7.4;
+			};
+			name = Release;
+		};
+		0B26066926EFDDB200F2CE8D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3HG9ZBM8AV;
+				IBSC_MODULE = Light_er__watchOS__Extension;
+				INFOPLIST_FILE = "Light.er (watchOS)/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "panandafog.Light-er.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 7.4;
+			};
+			name = Debug;
+		};
+		0B26066A26EFDDB200F2CE8D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3HG9ZBM8AV;
+				IBSC_MODULE = Light_er__watchOS__Extension;
+				INFOPLIST_FILE = "Light.er (watchOS)/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "panandafog.Light-er.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 7.4;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0B26062E26EFDD0800F2CE8D /* Build configuration list for PBXProject "Light.er" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0B26064026EFDD0A00F2CE8D /* Debug */,
+				0B26064126EFDD0A00F2CE8D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0B26064226EFDD0A00F2CE8D /* Build configuration list for PBXNativeTarget "Light.er" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0B26064326EFDD0A00F2CE8D /* Debug */,
+				0B26064426EFDD0A00F2CE8D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0B26066426EFDDB200F2CE8D /* Build configuration list for PBXNativeTarget "Light.er (watchOS) Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0B26066526EFDDB200F2CE8D /* Debug */,
+				0B26066626EFDDB200F2CE8D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0B26066826EFDDB200F2CE8D /* Build configuration list for PBXNativeTarget "Light.er (watchOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0B26066926EFDDB200F2CE8D /* Debug */,
+				0B26066A26EFDDB200F2CE8D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0B26062B26EFDD0800F2CE8D /* Project object */;
+}
