@@ -11,10 +11,10 @@
 		0B26063926EFDD0800F2CE8D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B26063826EFDD0800F2CE8D /* ContentView.swift */; };
 		0B26063B26EFDD0A00F2CE8D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0B26063A26EFDD0A00F2CE8D /* Assets.xcassets */; };
 		0B26063E26EFDD0A00F2CE8D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0B26063D26EFDD0A00F2CE8D /* Preview Assets.xcassets */; };
-		0B26065126EFDDB100F2CE8D /* Light.er (watchOS) Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 0B26065026EFDDB100F2CE8D /* Light.er (watchOS) Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		0B26065126EFDDB100F2CE8D /* Light.er watchOS Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 0B26065026EFDDB100F2CE8D /* Light.er watchOS Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		0B26065C26EFDDB200F2CE8D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0B26065B26EFDDB200F2CE8D /* Assets.xcassets */; };
 		0B26065F26EFDDB200F2CE8D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0B26065E26EFDDB200F2CE8D /* Preview Assets.xcassets */; };
-		0B26066326EFDDB200F2CE8D /* Light.er (watchOS).app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 0B26064726EFDDAF00F2CE8D /* Light.er (watchOS).app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		0B26066326EFDDB200F2CE8D /* Light.er watchOS.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 0B26064726EFDDAF00F2CE8D /* Light.er watchOS.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		0B26066C26EFDEE300F2CE8D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B26063826EFDD0800F2CE8D /* ContentView.swift */; };
 		0B26066D26EFDEE600F2CE8D /* Light_erApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B26063626EFDD0800F2CE8D /* Light_erApp.swift */; };
 		0B26066E26EFDFCC00F2CE8D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0B26064926EFDDB100F2CE8D /* Assets.xcassets */; };
@@ -47,7 +47,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 13;
 			files = (
-				0B26065126EFDDB100F2CE8D /* Light.er (watchOS) Extension.appex in Embed App Extensions */,
+				0B26065126EFDDB100F2CE8D /* Light.er watchOS Extension.appex in Embed App Extensions */,
 			);
 			name = "Embed App Extensions";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -58,7 +58,7 @@
 			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
 			dstSubfolderSpec = 16;
 			files = (
-				0B26066326EFDDB200F2CE8D /* Light.er (watchOS).app in Embed Watch Content */,
+				0B26066326EFDDB200F2CE8D /* Light.er watchOS.app in Embed Watch Content */,
 			);
 			name = "Embed Watch Content";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -72,10 +72,10 @@
 		0B26063A26EFDD0A00F2CE8D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0B26063D26EFDD0A00F2CE8D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		0B26063F26EFDD0A00F2CE8D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		0B26064726EFDDAF00F2CE8D /* Light.er (watchOS).app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Light.er (watchOS).app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0B26064726EFDDAF00F2CE8D /* Light.er watchOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Light.er watchOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0B26064926EFDDB100F2CE8D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0B26064B26EFDDB100F2CE8D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		0B26065026EFDDB100F2CE8D /* Light.er (watchOS) Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Light.er (watchOS) Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0B26065026EFDDB100F2CE8D /* Light.er watchOS Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Light.er watchOS Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0B26065926EFDDB100F2CE8D /* ComplicationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplicationController.swift; sourceTree = "<group>"; };
 		0B26065B26EFDDB200F2CE8D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0B26065E26EFDDB200F2CE8D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -116,8 +116,8 @@
 			isa = PBXGroup;
 			children = (
 				0B26063326EFDD0800F2CE8D /* Light.er.app */,
-				0B26064726EFDDAF00F2CE8D /* Light.er (watchOS).app */,
-				0B26065026EFDDB100F2CE8D /* Light.er (watchOS) Extension.appex */,
+				0B26064726EFDDAF00F2CE8D /* Light.er watchOS.app */,
+				0B26065026EFDDB100F2CE8D /* Light.er watchOS Extension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -200,9 +200,9 @@
 			productReference = 0B26063326EFDD0800F2CE8D /* Light.er.app */;
 			productType = "com.apple.product-type.application";
 		};
-		0B26064626EFDDAF00F2CE8D /* Light.er (watchOS) */ = {
+		0B26064626EFDDAF00F2CE8D /* Light.er watchOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 0B26066826EFDDB200F2CE8D /* Build configuration list for PBXNativeTarget "Light.er (watchOS)" */;
+			buildConfigurationList = 0B26066826EFDDB200F2CE8D /* Build configuration list for PBXNativeTarget "Light.er watchOS" */;
 			buildPhases = (
 				0B26064526EFDDAF00F2CE8D /* Resources */,
 				0B26066726EFDDB200F2CE8D /* Embed App Extensions */,
@@ -212,14 +212,14 @@
 			dependencies = (
 				0B26065326EFDDB100F2CE8D /* PBXTargetDependency */,
 			);
-			name = "Light.er (watchOS)";
+			name = "Light.er watchOS";
 			productName = "Light.er (watchOS)";
-			productReference = 0B26064726EFDDAF00F2CE8D /* Light.er (watchOS).app */;
+			productReference = 0B26064726EFDDAF00F2CE8D /* Light.er watchOS.app */;
 			productType = "com.apple.product-type.application.watchapp2";
 		};
-		0B26064F26EFDDB100F2CE8D /* Light.er (watchOS) Extension */ = {
+		0B26064F26EFDDB100F2CE8D /* Light.er watchOS Extension */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 0B26066426EFDDB200F2CE8D /* Build configuration list for PBXNativeTarget "Light.er (watchOS) Extension" */;
+			buildConfigurationList = 0B26066426EFDDB200F2CE8D /* Build configuration list for PBXNativeTarget "Light.er watchOS Extension" */;
 			buildPhases = (
 				0B26064C26EFDDB100F2CE8D /* Sources */,
 				0B26064D26EFDDB100F2CE8D /* Frameworks */,
@@ -229,9 +229,9 @@
 			);
 			dependencies = (
 			);
-			name = "Light.er (watchOS) Extension";
+			name = "Light.er watchOS Extension";
 			productName = "Light.er (watchOS) Extension";
-			productReference = 0B26065026EFDDB100F2CE8D /* Light.er (watchOS) Extension.appex */;
+			productReference = 0B26065026EFDDB100F2CE8D /* Light.er watchOS Extension.appex */;
 			productType = "com.apple.product-type.watchkit2-extension";
 		};
 /* End PBXNativeTarget section */
@@ -268,8 +268,8 @@
 			projectRoot = "";
 			targets = (
 				0B26063226EFDD0800F2CE8D /* Light.er */,
-				0B26064626EFDDAF00F2CE8D /* Light.er (watchOS) */,
-				0B26064F26EFDDB100F2CE8D /* Light.er (watchOS) Extension */,
+				0B26064626EFDDAF00F2CE8D /* Light.er watchOS */,
+				0B26064F26EFDDB100F2CE8D /* Light.er watchOS Extension */,
 			);
 		};
 /* End PBXProject section */
@@ -330,12 +330,12 @@
 /* Begin PBXTargetDependency section */
 		0B26065326EFDDB100F2CE8D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 0B26064F26EFDDB100F2CE8D /* Light.er (watchOS) Extension */;
+			target = 0B26064F26EFDDB100F2CE8D /* Light.er watchOS Extension */;
 			targetProxy = 0B26065226EFDDB100F2CE8D /* PBXContainerItemProxy */;
 		};
 		0B26066226EFDDB200F2CE8D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 0B26064626EFDDAF00F2CE8D /* Light.er (watchOS) */;
+			target = 0B26064626EFDDAF00F2CE8D /* Light.er watchOS */;
 			targetProxy = 0B26066126EFDDB200F2CE8D /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -610,7 +610,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		0B26066426EFDDB200F2CE8D /* Build configuration list for PBXNativeTarget "Light.er (watchOS) Extension" */ = {
+		0B26066426EFDDB200F2CE8D /* Build configuration list for PBXNativeTarget "Light.er watchOS Extension" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				0B26066526EFDDB200F2CE8D /* Debug */,
@@ -619,7 +619,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		0B26066826EFDDB200F2CE8D /* Build configuration list for PBXNativeTarget "Light.er (watchOS)" */ = {
+		0B26066826EFDDB200F2CE8D /* Build configuration list for PBXNativeTarget "Light.er watchOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				0B26066926EFDDB200F2CE8D /* Debug */,
